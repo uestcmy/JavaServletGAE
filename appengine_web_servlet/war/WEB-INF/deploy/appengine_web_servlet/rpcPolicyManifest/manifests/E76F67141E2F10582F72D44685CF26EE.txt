@@ -1,0 +1,2 @@
+serviceClass: com.appspot.myjavaservlet.client.GreetingService
+path: D880D9DC699B72964F4CC3B7217BEDA2.gwt.rpc

@@ -1,0 +1,3 @@
+# Module appengine_web_servlet
+# RPC service class, partial path of RPC policy file
+com.appspot.myjavaservlet.client.GreetingService, D880D9DC699B72964F4CC3B7217BEDA2.gwt.rpc

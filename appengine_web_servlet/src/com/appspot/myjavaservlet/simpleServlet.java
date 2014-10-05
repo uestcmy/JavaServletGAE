@@ -38,6 +38,7 @@ public class simpleServlet extends HttpServlet{
 		resp.getWriter().write("    Echo:"+ msg+"\n");
 		resp.getWriter().write("    Client request method is  : "+req_info2 + "\n");
 		resp.getWriter().write("    Client request header is  : "+req_header + "\n");
+		resp.getWriter().write("--This app is created by Meng Yang At UESTC on 2014-10-04 \n");
 		
 		/*
 		System.out.println("Client IP address : "+req_info+"\n");
@@ -50,3 +51,4 @@ public class simpleServlet extends HttpServlet{
 }
 
 //http://127.0.0.1:8888/simpletest?msg=This message is from local IE.
+//http://myjavaservlet.appspot.com/simpletest?msg=This is message sent from XXX 

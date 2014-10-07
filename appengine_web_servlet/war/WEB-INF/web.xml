@@ -29,8 +29,42 @@
   
   
   <!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-  </welcome-file-list>
+
+
+   <servlet>
+    <servlet-name>SimpleUpload</servlet-name>
+    <servlet-class>com.appspot.myjavaservlet.SimpleUpload</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SimpleUpload</servlet-name>
+    <url-pattern>/simpleupload</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ServeFile</servlet-name>
+    <servlet-class>com.appspot.myjavaservlet.ServeFile</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ServeFile</servlet-name>
+    <url-pattern>/servefile</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>HtmlVideoServlet</servlet-name>
+    <servlet-class>com.appspot.myjavaservlet.HtmlVideoServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>HtmlVideoServlet</servlet-name>
+    <url-pattern>/htmlvideoservlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list> 
+        <welcome-file>index.jsp</welcome-file> 
+
+   </welcome-file-list> 
 
 </web-app>
